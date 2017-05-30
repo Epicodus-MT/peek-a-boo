@@ -3,7 +3,7 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Peek-a-boo</title>
   </head>
@@ -11,9 +11,21 @@
     <div class="container">
       <h1>Peek-a-boo</h1>
 
-      <p>Let's play peek-a-boo. Click here to see the surprise!</p>
-
-      <img src="img/walrus.jpg">
+      <p>Let's play peek-a-boo.</p>
+      <div id="showKitten">
+        <p><span class="kittenClick">Show</span> kitten.</p>
+      </div>
+      <div id="hideKitten">
+        <p><span class="kittenClick">Hide</span> kitten.</p>
+        <img src="img/kitten.jpg">
+      </div>
+      <div id="showBuilding">
+        <p><span class="buildingClick">Show</span> the building.</p>
+        </div>
+      <div id="hideBuilding">
+        <p><span class="buildingClick">Hide</span> the building.</p>
+        <img src="img/building.jpg">
+      </div>
     </div>
   </body>
 </html>
