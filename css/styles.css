@@ -1,3 +1,14 @@
+.linked:hover {
+  text-decoration:none;
+  color: #e226b0;
+}
+
+.linked {
+  text-decoration: underline;
+  color: #1aba09;
+  cursor: pointer;
+}
+
 #hideKitten{
   display: none;
 
